@@ -10,6 +10,6 @@ while True:
 
 # calclate and print area and perimeter
 area = height*width
-circumference = 2*(height + width)
+perimeter = 2*(height + width)
 print(f"area:{area}")
-print(f"circumeference: {circumference}")
+print(f"perimeter: {perimeter}")
