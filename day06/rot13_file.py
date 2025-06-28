@@ -10,7 +10,7 @@ if len(sys.argv) < 2:
 filename = sys.argv[1]
 with open(filename, 'r') as file:
 
-# transfoerm the content
+# transform the content
     content = file.read()
     transformed = codecs.encode(content, 'rot_13')
 
